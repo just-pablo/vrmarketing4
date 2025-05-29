@@ -6,6 +6,8 @@ import { sendVerificationEmail } from '$lib/config/email-messages';
 import { setFlash } from 'sveltekit-flash-message/server';
 //import type { RequestEvent } from '@sveltejs/kit';
 
+// https://vrmarketing4-production.up.railway.app/auth/google/callback
+
 type GoogleUser = {
 	sub: string;
 	name: string;

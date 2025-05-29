@@ -1,8 +1,10 @@
 import { dev } from '$app/environment';
 export const BASE_URL = dev ? 'http://localhost:5173' : 'https://sveltekit-auth-alpha.vercel.app';
-export const APP_NAME = 'Sveltekit Auth';
+//SDK LINK needs to be changed
+export const CURRENT_SDK_LINK = BASE_URL + "/static/sdk/v1.1/VirtuPoster.unitypackage"
+export const APP_NAME = 'VirtuPoster';
 export const CONTACT_EMAIL = 'yourname@email.com';
-export const DOMAIN = 'sveltekit-auth-alpha.vercel.app';
+export const DOMAIN = 'virtuposter.com';
 /* WARNING!!! TERMS AND CONDITIONS AND PRIVACY POLICY 
 WERE CREATED BY CHATGPT AS AN EXAMPLE ONLY. 
 CONSULT A LAWYER AND DEVELOP YOUR OWN TERMS AND PRIVACY POLICY!!! */
