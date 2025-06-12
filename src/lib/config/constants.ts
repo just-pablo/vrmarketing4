@@ -1,5 +1,5 @@
 import { dev } from '$app/environment';
-export const BASE_URL = dev ? 'http://localhost:5173' : 'https://sveltekit-auth-alpha.vercel.app';
+export const BASE_URL = dev ? 'http://localhost:5173' : 'https://vrmarketing4-production.up.railway.app';
 //SDK LINK needs to be changed
 export const CURRENT_SDK_LINK = BASE_URL + "/static/sdk/v1.1/VirtuPoster.unitypackage"
 export const APP_NAME = 'VirtuPoster';
